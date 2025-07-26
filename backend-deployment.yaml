@@ -25,8 +25,4 @@ spec:
                 secretKeyRef:
                   name: backend-secrets
                   key: MONGODB_URI
-            - name: JWT_SECRET
-              valueFrom:
-                secretKeyRef:
-                  name: backend-secrets
-                  key: JWT_SECRET
+            
