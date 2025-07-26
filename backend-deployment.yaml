@@ -20,7 +20,7 @@ spec:
           env:
             - name: PORT
               value: "3001"
-            - name: MONGODB_URI
+            - name: MONGO_URI
               valueFrom:
                 secretKeyRef:
                   name: backend-secrets
